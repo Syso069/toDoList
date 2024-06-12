@@ -1,0 +1,61 @@
+:root {
+    --fonte-principal: 'Poppins';
+}
+
+body {
+    font-family: var(--fonte-principal);
+    font-weight: 500;
+    font-size: 40px;
+    background-color: rgb(171, 118, 221);
+}
+
+.container {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    margin: 10%;
+}
+
+.container_titulo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.titulo{
+    color: aliceblue;
+}
+
+.subtitulo {
+    background-color: rgb(255, 255, 255);
+    padding: 0.5em;
+    border-radius: 0.2em;
+}
+
+.container_form_lista {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.container_formulario {
+    background-color: aliceblue;
+    padding: 0.6em;
+    border-radius: 0.2em;
+}
+
+.tarefa {
+    border-radius: 0.5em;
+    padding: 1em;
+    margin-bottom: 1em;
+}
+
+.cadastrar {
+    color: aliceblue;
+    background-color: rgb(171, 118, 221);
+    padding: 1em;
+    border-radius: 0.2em;
+    border: none;
+}
